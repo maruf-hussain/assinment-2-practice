@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+body {
+    background-color: lightcyan;
+}
+
+main {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 850px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* ............................................................................................................................. */
+header {}
+
+.head-all {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(15, 182, 154);
+    height: 75px;
+    align-items: center;
+}
+
+.logo-part {
+   display: flex;
+   align-items: center;
+}
+.logo-part img{
+    width: 25px;
+    height: 25px;
+    
+   
+}
+
+.logo-part h1 {
+    
+}
+
+nav {
+    display: flex;
+    
+}
+
+nav a{
+    text-decoration-line: none;
+    margin-left: 20px;
+    color: black;
+}
+
+
+
+/*  founder part start........................................................................................................ */
+.top-player {}
+
+.player-title {
+    color: blue;
+    margin-left: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+    grid-gap: 30px;
+}
+
+.playear {
+    display: flex;
+    align-items: center;
+}
+
+.playear img {
+    width: 56px;
+    height: 56px;
+}
+
+.playear h3 {
+    margin-left: 15px;
+}
+
+/* blog part start.............................................................................................................. */
+
+
+.top-company {}
+
+.top-company-title {
+    margin-left: 30px;
+    color: blue;
+}
+
+.top-company-tb {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding: 30px;
+}
+
+.top-company-tbc {
+    display: flex;
+}
+
+.top-company-photo img {
+    width: 180px;
+    margin-top: 15px;
+
+
+}
+
+.pt {
+    margin-left: 10px;
+
+}
+
+.pt h1 {
+    font-size: 20px;
+}
+
+.pt a {
+    text-decoration: none;
+}
+
+/* .............................................................................................................................. */
+
+.course {}
+
+.course-title {
+    color: blue;
+    margin-left: 30px;
+}
+
+.cours-total {
+    padding: 30px;
+}
+
+.cours-flex {
+    display: flex;
+
+
+}
+
+.cours-photo img {
+    width: 224px;
+    height: 105px;
+    border-radius: 10px;
+}
+
+.hp h1 {
+    font-size: 20px;
+}
+
+.hp p {
+    color: orange;
+}
+
+.cours-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.fas.fa-star {
+    color: #FFC014;
+}
+
+.fas.fa-star-half-alt {
+    color: #FFC014;
+}
+
+.fas.fa-star.khali {
+    color: rgb(173, 170, 166);
+}
+
+.time {
+    color: red;
+    background-color: rgb(160, 245, 135);
+    border-radius: 5px;
+
+}
+
+/* .............................................................................................................................. */
+@media only screen and (max-width:851px) {
+    .container {
+        width: 100%;
+    }
+
+    .players,
+    .top-company-tb {
+        background-color: rgb(9, 207, 131);
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .cours-flex {
+        flex-direction: column;
+        background-color: rgb(9, 207, 131);
+    }
